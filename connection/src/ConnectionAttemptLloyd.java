@@ -24,6 +24,7 @@ public class ConnectionAttemptLloyd {
 // Wow, nasty things happen without the while loop, too! It allowed me to run it multiple times before it finally finished the process.
  while(true){
             try {
+                // Might have been worth my while just to hard code this portion.
                 Scanner systemInScanner = new Scanner(System.in);
                 System.out.printf("Enter message.\n");
                 String messageForServer = systemInScanner.nextLine();
